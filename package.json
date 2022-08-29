@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "node": "^14.20.0",
+    "json-server": "^0.16.1",
+    "sass": "^1.54.5",
     "@babel/core": "7.9.0",
     "@svgr/webpack": "4.3.3",
     "@testing-library/jest-dom": "^4.2.4",
@@ -53,7 +55,7 @@
     "react-content-loader": "^5.1.0",
     "react-dev-utils": "^10.2.1",
     "react-dom": "^16.13.1",
-    "react-redux": "^7.2.0",
+    "react-redux": "latest",
     "react-router-dom": "^5.2.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
@@ -146,8 +148,6 @@
     ]
   },
   "devDependencies": {
-    "express": "^4.17.1",
-    "json-server": "^0.16.1",
-    "sass": "^1.54.5"
+    "express": "^4.17.1"
   }
 }
